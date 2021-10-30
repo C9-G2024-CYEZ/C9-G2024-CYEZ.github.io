@@ -1,6 +1,6 @@
 ---
 title: 
-date: 2019-07-30 09:33:48
+date: 2021-10-30 14:55:04
 thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20201030170254.png
 ---
 <div class="music-container">
@@ -29,6 +29,7 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/202010301702
 <link rel="stylesheet" href="/css/DPlayer.min.css"/>
 <br/>
 <br/>
+
 <div class="video-player">
     <div class="d-title">
             <i class="fa fa-video-camera"></i>&nbsp;&nbsp;看看视频
