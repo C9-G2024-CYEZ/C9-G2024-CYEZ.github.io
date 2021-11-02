@@ -396,6 +396,6 @@ footer_copyright_dsec: © 版权说明：[本网站所有内容均收集于互�
 website_start_time: 2021/10/30 00:00:00 #网站运行开始时间,不填不显示
 footer_registered_no:  #备案号
 side_music_netease_id: 2364053447 #侧边栏网易云歌单id
-busuanzi_only_count: false #当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
+busuanzi_only_count: true #当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
 has_live_2D_switch: true #live2D开关 true-开 false-关
 use_pjax: true #是否pjax
