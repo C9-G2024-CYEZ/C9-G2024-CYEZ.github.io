@@ -19,10 +19,10 @@ head:
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: https://removeif.github.io/
+        url: 
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
+        image: https://raw.githubusercontent.com/C9-G2024-CYEZ/blogsrc/main/img/avatar.jpeg
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
         site_name: 九班の小站
@@ -73,15 +73,15 @@ head:
 navbar:
     # Naviagtion menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
-        Album: /album
-        Friend: /friend
-        Message: /message
-        Music: /music
+        主页: /
+        仓库: /archives
+        分类: /categories
+        标签: /tags
+        关于我们: /about
+        相册: /album
+        友链: /friend
+        留言: /message
+        音乐: /music
     # Links to be shown on the right of the navigation bar
     links:
         Join Gitter:
@@ -138,42 +138,19 @@ search:
 #    # Disqus shortname
 #    shortname: ''
 # Comment plugin configurations
-# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    type: gitalk
-    language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: removeif         # (required) GitHub user name
-    repo: blog_comment          # (required) GitHub repository name
-    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
-    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
-    admin: ['removeif']
-    create_issue_manually: true
-    distraction_free_mode: false
-    has_hot_recommend: true # 是否有热门推荐
-    has_latest_comment: true #是否有最新评论
-    proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token #解决登录后403问题
-# comment:
-#     type: valine
-#     app_id: rOtVIhvG3kd7QkMKe3naSU9R-gzGzoHsz
-#     app_key: F2sNV0CkqvbPat45di3DEn3z
-#     notify: false
-#     verify: false
-#     avatar: 'mp'
-#     placeholder: '留下您的高见！'
-#     has_latest_comment: true #是否有最新评论 true-有，false-无
-#     owner: 九班信息组 #博主名 最新评论标注[博主]
-#     required_fields: ['nick', 'mail', 'link']
-#     lang: en #zh-CN zh-TW en ja
-
-
-# utteranc site: https://utteranc.es/
-# comment:
-#     type: utteranc
-#     repo: removeif/utteranc_comment # (required) GitHub userName & repository name
-#     issue_term: pathname 
-#     issue_number: 
-#     label: 
-#     theme: github-light
+#comment:
+    #type: valine
+   # language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
+    #owner: C9-G2024-CYEZ         # (required) GitHub user name
+    #repo: blog_comment          # (required) GitHub repository name
+    #client_id: POyWWLL2VmnLLd5PCvIMEhwi-9Nh9j0Va     # (required) OAuth application client id
+    #client_secret: DRe3FxEJBLtuvSfVr7zHhBpL # (required) OAuth application client secret
+    #admin: ['begonia1005']
+    #create_issue_manually: true
+    #distraction_free_mode: false
+    #has_hot_recommend: true # 是否有热门推荐
+    #has_latest_comment: true #是否有最新评论
+    #proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token #解决登录后403问题
 
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
@@ -250,7 +227,7 @@ widgets:
         # Author's current location
         location: 中国
         # URL or path to the avatar image
-        avatar: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
+        avatar: /image/avatar.png
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
@@ -332,7 +309,7 @@ article_head_has_ad: false
 # comment head ad
 comment_head_has_ad: false
 # other ad
-index_zero_position_ad: true
+index_zero_position_ad: false
 index_ad_positions:  #首页adsense放置广告的位置，尽量少配置些，多了有可能不显示。一位的时候，加个逗号，如1,或者1,5,9
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
